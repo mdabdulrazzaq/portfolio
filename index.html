@@ -12,54 +12,73 @@
       <h1>Mohammad Abdul Razzaq</h1>
       <p>Brooklyn, NY | <a href="mailto:am15213@nyu.edu">am15213@nyu.edu</a> | +1 (347) 865-3393</p>
       <p><a href="https://linkedin.com/in/mohammadabdulrazzaq" target="_blank">LinkedIn</a></p>
+      <button onclick="location.href='projects.html'" class="button">View Projects</button>
     </header>
 
     <section>
       <h2>Education</h2>
-      <p><strong>New York University, Tandon School of Engineering</strong> | New York, NY</p>
-      <p>Master of Science in Computer Science (Aug 2024 – May 2026)</p>
-      <p><strong>Vellore Institute of Technology</strong> | Amaravathi, India</p>
-      <p>Bachelor of Technology in Computer Science Engineering, GPA: 8.83 / 10.00 (Aug 2018 – May 2022)</p>
+      <div class="education-item">
+        <h3>New York University, Tandon School of Engineering</h3>
+        <p>Master of Science in Computer Science (Aug 2024 – May 2026)</p>
+      </div>
+      <div class="education-item">
+        <h3>Vellore Institute of Technology</h3>
+        <p>Bachelor of Technology in Computer Science Engineering, GPA: 8.83 / 10.00 (Aug 2018 – May 2022)</p>
+      </div>
     </section>
 
     <section>
       <h2>Technical Skills</h2>
-      <ul>
-        <li><strong>Languages:</strong> C/C++, Python, R, Java, Go, TypeScript</li>
-        <li><strong>DevOps:</strong> Kubernetes, Docker, Tekton</li>
-        <li><strong>Operating Systems:</strong> Linux, Windows</li>
-        <li><strong>Databases:</strong> MongoDB, MySQL, Redis</li>
-        <li><strong>Machine Learning & AI:</strong> Neural Networks, Computer Vision, NLP, Transformer Models (ROBERTA, BERT)</li>
-        <li><strong>Web Technologies:</strong> ReactJS, NextJS, Redux, RTK Query</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <h3>Emotion AI: Facial Key-Points Detection</h3>
-      <p>Developed a deep learning model using CNNs and ResNets for high-precision facial key-point detection, enabling real-time emotion recognition.</p>
-      <h3>BCI-SSVEP Detection</h3>
-      <p>Implemented a multi-task learning model to analyze EEG signals, enhancing glaucoma diagnostics through visual field mapping.</p>
+      <div class="skills">
+        <p><strong>Languages:</strong> C/C++, Python, R, Java, Go, TypeScript</p>
+        <p><strong>DevOps:</strong> Kubernetes, Docker, Tekton</p>
+        <p><strong>Operating Systems:</strong> Linux, Windows</p>
+        <p><strong>Databases:</strong> MongoDB, MySQL, Redis</p>
+        <p><strong>Machine Learning & AI:</strong> Neural Networks, Computer Vision, NLP, Transformer Models (ROBERTA, BERT)</p>
+        <p><strong>Web Technologies:</strong> ReactJS, NextJS, Redux, RTK Query</p>
+      </div>
     </section>
 
     <section>
       <h2>Professional Experience</h2>
-      <h3>Software Engineer | Ozone Cloud | Bangalore, India</h3>
-      <p>Career Progression: Software Engineer (May 2024 – Aug 2024), Associate Software Engineer (July 2022 – April 2024), Trainee Software Developer (Dec 2021 – June 2022)</p>
-      <ul>
-        <li>Developed Ozone Studio's UI for Tekton pipeline creation, improving efficiency by 40%.</li>
-        <li>Implemented AI-driven observability and monitoring tools, including Grafana dashboards and an end-to-end observability feature.</li>
-        <li>Architected an in-house conversational LLM with RAG for pipeline conversion.</li>
-        <li>Managed production, development, and staging clusters as SRE of the month.</li>
-      </ul>
-      <h3>Data Science Intern | KoiReader | Bangalore, India (Jan 2021 – Sept 2021)</h3>
-      <ul>
-        <li>Led data preprocessing and annotation tasks for object detection models, ensuring high-quality training data.</li>
-      </ul>
-      <h3>Research Intern | Aero2astro | India (Oct 2020 – Jun 2021)</h3>
-      <ul>
-        <li>Studied object detection models like YOLO and OpenCV, evaluating performance in real-world scenarios.</li>
-      </ul>
+      
+      <div class="experience-item">
+        <h3>Software Engineer | Ozone Cloud | Bangalore, India</h3>
+        <p>Career Progression: Software Engineer (May 2024 – Aug 2024), Associate Software Engineer (July 2022 – April 2024), Trainee Software Developer (Dec 2021 – June 2022)</p>
+        <ul>
+          <li>Developed Ozone Studio's UI for Tekton pipeline creation, improving efficiency by 40%.</li>
+          <li>Implemented a Continuous Verification feature using AI models to monitor application attributes and generate alerts for anomalies.</li>
+          <li>Engineered an end-to-end one-click deploy feature for the Ozone CI/CD platform, simplifying the deployment process.</li>
+          <li>Built AI-driven Grafana dashboards to provide real-time system monitoring, improving observability and decision-making.</li>
+          <li>Developed an end-to-end observability feature for Ozone Microservices, improving monitoring, system reliability, and fault isolation.</li>
+          <li>Architected an in-house Conversational LLM with RAG for automated pipeline conversion.</li>
+          <li>Implemented DevOps practices with Kubernetes, Docker, and Tekton, streamlining CI/CD pipelines for seamless deployments and improving development cycles.</li>
+          <li>Managed production, development, and staging clusters, achieving SRE of the month recognition for exceptional operational reliability.</li>
+          <li>Built and deployed ML and NLP models to enhance Ozone Microservices, increasing the overall effectiveness of data analytics in production systems.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h3>Data Science Intern | KoiReader | Bangalore, India</h3>
+        <p>Jan 2021 – Sept 2021</p>
+        <ul>
+          <li>Led comprehensive data preprocessing for object detection models, applying data cleaning, normalization, and augmentation techniques to improve dataset quality.</li>
+          <li>Managed the data annotation process to ensure accuracy and consistency across large datasets, enabling better model training.</li>
+          <li>Contributed to model evaluation and fine-tuning, working closely with the data science team to identify and resolve data-related issues.</li>
+          <li>Assisted in refining machine learning models by interpreting performance metrics and making recommendations for model improvements.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h3>Research Intern | Aero2astro | India</h3>
+        <p>Oct 2020 – Jun 2021</p>
+        <ul>
+          <li>Investigated state-of-the-art object detection models such as YOLO and OpenCV, studying their applications in real-world scenarios.</li>
+          <li>Conducted performance analysis of multiple object detection architectures, recommending improvements for greater accuracy in diverse environments.</li>
+          <li>Assisted in the development of new algorithms to improve detection accuracy and reduce computational overhead in embedded systems.</li>
+        </ul>
+      </div>
+      
     </section>
 
     <section>
