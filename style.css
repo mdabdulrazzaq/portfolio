@@ -9,6 +9,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #f4f5f9;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -26,9 +27,16 @@ header {
   margin-bottom: 30px;
 }
 
+header img.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
 header h1 {
   font-size: 2.8em;
-  color: #6A4C9C; /* NYU Purple */
+  color: #6A4C9C;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -39,7 +47,7 @@ header p {
 }
 
 header a {
-  color: #6A4C9C; /* NYU Purple */
+  color: #6A4C9C;
 }
 
 header a:hover {
@@ -48,7 +56,7 @@ header a:hover {
 
 header button {
   padding: 12px 25px;
-  background-color: #6A4C9C; /* NYU Purple */
+  background-color: #6A4C9C;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -59,7 +67,7 @@ header button {
 }
 
 header button:hover {
-  background-color: #5b409c; /* Slightly darker shade of purple */
+  background-color: #5b409c;
 }
 
 section {
@@ -70,18 +78,14 @@ h2 {
   font-size: 2em;
   color: #333;
   margin-bottom: 15px;
-  border-bottom: 2px solid #6A4C9C; /* NYU Purple */
+  border-bottom: 2px solid #6A4C9C;
   padding-bottom: 8px;
 }
 
 h3 {
   font-size: 1.5em;
-  color: #6A4C9C; /* NYU Purple */
+  color: #6A4C9C;
   margin-bottom: 8px;
-}
-
-.education-item, .experience-item, .skills, .projects-item {
-  margin-bottom: 20px;
 }
 
 ul {
@@ -97,7 +101,7 @@ ul li {
 }
 
 a {
-  color: #6A4C9C; /* NYU Purple */
+  color: #6A4C9C;
   text-decoration: none;
 }
 
@@ -113,62 +117,124 @@ footer {
 }
 
 footer a {
-  color: #6A4C9C; /* NYU Purple */
+  color: #6A4C9C;
 }
 
 footer a:hover {
   text-decoration: underline;
 }
 
-.skills p {
-  font-size: 1.1em;
-  color: #555;
-  margin-bottom: 10px;
+/* Career Progression Section */
+.career-progression {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  gap: 20px;
 }
 
-.projects-item {
-  margin-bottom: 20px;
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.projects-item h3 {
-  font-size: 1.6em;
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
   color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px
 }
 
-.projects-item p {
-  font-size: 1.1em;
-  color: #555;
-  margin-top: 10px;
+.card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
 }
 
-button {
-  padding: 12px 25px;
-  background-color: #6A4C9C; /* NYU Purple */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.card ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-button:hover {
-  background-color: #5b409c;
+.card ul li {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
 }
 
-/* For the NYU-style button for projects */
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-cards .card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-cards .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-cards .card h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-cards .card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
 .project-button {
-  padding: 12px 25px;
-  background-color: #6A4C9C;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 10px;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #6A4C9C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
 }
 
 .project-button:hover {
-  background-color: #5b409c;
+    background-color: #5b409c;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .career-progression {
+        /* grid-template-columns: 1fr; */
+    }
+
+    .project-cards {
+        /* grid-template-columns: 1fr; */
+    }
+}
+/* Ensure the list has bullet points */
+ul {
+  list-style-type: disc !important; /* Enforce bullet points */
+  padding-left: 20px !important; /* Indentation */
+}
+
+/* Optional: Style individual list items */
+li {
+  margin-bottom: 8px; /* Add spacing between list items */
+}
+
