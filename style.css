@@ -8,7 +8,7 @@ body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #f0f2f5;
+  background-color: #f4f5f9;
 }
 
 .container {
@@ -23,22 +23,23 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 header h1 {
-  font-size: 2.5em;
-  color: #333;
+  font-size: 2.8em;
+  color: #6A4C9C; /* NYU Purple */
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 header p {
-  font-size: 1em;
+  font-size: 1.1em;
   color: #555;
 }
 
 header a {
-  color: #0066cc;
+  color: #6A4C9C; /* NYU Purple */
 }
 
 header a:hover {
@@ -46,35 +47,36 @@ header a:hover {
 }
 
 header button {
-  padding: 10px 20px;
-  background-color: #0066cc;
+  padding: 12px 25px;
+  background-color: #6A4C9C; /* NYU Purple */
   color: #fff;
   border: none;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 1.1em;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
 }
 
 header button:hover {
-  background-color: #0057a6;
+  background-color: #5b409c; /* Slightly darker shade of purple */
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 2em;
   color: #333;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #333;
-  padding-bottom: 5px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #6A4C9C; /* NYU Purple */
+  padding-bottom: 8px;
 }
 
 h3 {
-  font-size: 1.4em;
-  color: #444;
+  font-size: 1.5em;
+  color: #6A4C9C; /* NYU Purple */
   margin-bottom: 8px;
 }
 
@@ -95,7 +97,7 @@ ul li {
 }
 
 a {
-  color: #0066cc;
+  color: #6A4C9C; /* NYU Purple */
   text-decoration: none;
 }
 
@@ -105,13 +107,13 @@ a:hover {
 
 footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 0.9em;
   color: #777;
 }
 
 footer a {
-  color: #0066cc;
+  color: #6A4C9C; /* NYU Purple */
 }
 
 footer a:hover {
@@ -119,7 +121,7 @@ footer a:hover {
 }
 
 .skills p {
-  font-size: 1em;
+  font-size: 1.1em;
   color: #555;
   margin-bottom: 10px;
 }
@@ -129,7 +131,7 @@ footer a:hover {
 }
 
 .projects-item h3 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: #333;
 }
 
@@ -140,15 +142,33 @@ footer a:hover {
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #0066cc;
+  padding: 12px 25px;
+  background-color: #6A4C9C; /* NYU Purple */
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 1.1em;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #0057a6;
+  background-color: #5b409c;
+}
+
+/* For the NYU-style button for projects */
+.project-button {
+  padding: 12px 25px;
+  background-color: #6A4C9C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.project-button:hover {
+  background-color: #5b409c;
 }
