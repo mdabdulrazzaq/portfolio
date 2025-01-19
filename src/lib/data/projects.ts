@@ -74,7 +74,7 @@ export const items: Array<Project> = [
              • Fine-tuned language models for robotics-specific tasks and built an interactive app for real-time querying, enabling users to ask navigation-related questions.`,
 		shortDescription: 'RAG System for ROS2 Robotics using MongoDB, Qdrant, Docker, PyTorch, ClearML.',
 		links: [{ to: 'https://github.com/yourusername/ros2-rag', label: 'GitHub' }],
-		logo: Assets.Unknown,  // Replace with an appropriate logo if available
+		logo: Assets.RAG,  // Replace with an appropriate logo if available
 		name: 'RAG System for  Robotics',
 		period: {
 			from: new Date()  // Replace with specific start date if applicable
@@ -90,7 +90,7 @@ export const items: Array<Project> = [
 • Designed a multi-task learning framework to simultaneously extract EEG features and map visual responses, improving diagnostic accuracy and speeding up the process.`,
 		shortDescription: 'BCI-SSVEP Detection using Multi-Task Learning and PyTorch.',
 		links: [{ to: 'https://github.com/yourusername/bci-ssvep', label: 'GitHub' }],
-		logo: Assets.Unknown,  // Replace with an appropriate logo if available
+		logo: Assets.BCI,  // Replace with an appropriate logo if available
 		name: 'BCI-SSVEP Detection with Multi-Task Learning',
 		period: {
 			from: new Date()  // Replace with specific start date if applicable

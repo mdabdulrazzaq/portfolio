@@ -85,7 +85,9 @@ const Assets = {
 	VIT: a('VIT.png'),
 	NYU:a('NYU.png'),
 	Ozone: a('ozone_logo.jpeg'),
-	KoiReader: a('koi.png')
+	KoiReader: a('koi.png'),
+	RAG:a('rag.png'),
+	BCI:a('bci-mm.png')
 
 };
 
