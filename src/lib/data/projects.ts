@@ -73,7 +73,7 @@ export const items: Array<Project> = [
 			`• Developed a RAG system to improve ROS2-based autonomous navigation by creating ETL pipelines to process and store ROS2 documentation and simulation data for efficient querying.  
              • Fine-tuned language models for robotics-specific tasks and built an interactive app for real-time querying, enabling users to ask navigation-related questions.`,
 		shortDescription: 'RAG System for ROS2 Robotics using MongoDB, Qdrant, Docker, PyTorch, ClearML.',
-		links: [{ to: 'https://github.com/yourusername/ros2-rag', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/mdabdulrazzaq/RAG-System-for-Robotics', label: 'GitHub' }],
 		logo: Assets.RAG,  // Replace with an appropriate logo if available
 		name: 'RAG System for  Robotics',
 		period: {
@@ -89,7 +89,7 @@ export const items: Array<Project> = [
 			`• Developed a deep learning model for real-time Brain-Computer Interface (BCI) applications, focused on the SSVEP (Steady-State Visual Evoked Potential) paradigm for efficient visual field mapping in glaucoma diagnostics.  
 • Designed a multi-task learning framework to simultaneously extract EEG features and map visual responses, improving diagnostic accuracy and speeding up the process.`,
 		shortDescription: 'BCI-SSVEP Detection using Multi-Task Learning and PyTorch.',
-		links: [{ to: 'https://github.com/yourusername/bci-ssvep', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/mdabdulrazzaq/SSVEP-Detection', label: 'GitHub' }],
 		logo: Assets.BCI,  // Replace with an appropriate logo if available
 		name: 'BCI-SSVEP Detection with Multi-Task Learning',
 		period: {
