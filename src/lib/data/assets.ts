@@ -87,7 +87,8 @@ const Assets = {
 	Ozone: a('ozone_logo.jpeg'),
 	KoiReader: a('koi.png'),
 	RAG:a('rag.png'),
-	BCI:a('bci-mm.png')
+	BCI:a('bci-mm.png'),
+	sportsai:a('sportsailogo.png')
 
 };
 

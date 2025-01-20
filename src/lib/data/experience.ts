@@ -6,8 +6,8 @@ export const items: Array<Experience> = [
 	{
 		slug: 'ozone-cloud',
 		company: 'Ozone Cloud',
-	    description: `
-		• Developed Ozone Studio's user-friendly interface for Tekton pipeline creation, enhancing development efficiency by 40%.  
+	    description:
+		`• Developed Ozone Studio's user-friendly interface for Tekton pipeline creation, enhancing development efficiency by 40%.  
 		• Integrated AI models into the Continuous Verification feature to monitor application attributes and generate alerts for anomalies.  
 		• Built an end-to-end one-click deployment feature for the Ozone CI/CD platform.  
 		• Implemented AI-driven Grafana dashboards for enhanced observability, improving system diagnostics and decision-making.  
@@ -31,7 +31,10 @@ export const items: Array<Experience> = [
 	{
 		slug: 'koireader',
 		company: 'KoiReader',
-		description: 'Executed data preprocessing, annotation, and model evaluation to improve object detection model performance.',
+		description: 
+		 `• Performed data preprocessing for object detection models, including data cleaning, normalization, and augmentation, improving dataset quality.  
+		• Led data annotation to ensure consistent and accurate labeling of training data, utilizing advanced annotation tools.
+		• Worked closely with cross-functional teams to improve dataset robustness, contributing to overall model performance.`,
 		contract: ContractType.Internship,
 		type: 'Data Science',
 		location: 'Bangalore, India',
@@ -46,7 +49,15 @@ export const items: Array<Experience> = [
 	{
 		slug: 'aero2astro',
 		company: 'Aero2astro',
-		description: 'Explored computer vision models for object detection and performance evaluation using YOLO and OpenCV.',
+		description: 
+		 `• Conducted research on computer vision models (e.g., YOLO, OpenCV) for object detection, improving model accuracy and efficiency.  
+		• Led data annotation to ensure consistent and accurate labeling of training data, utilizing advanced annotation tools.  
+		• Worked closely with cross-functional teams to improve dataset robustness, contributing to overall model performance.`,
+	
+		// • Explored various object detection algorithms, optimizing detection methods for real-world applications.
+		//  Evaluated and tested model performance using real-world datasets, contributing to insights for model improvements.`,
+		
+	
 		contract: ContractType.Internship,
 		type: 'Machine Learning Research',
 		location: 'India',

@@ -77,7 +77,7 @@ export const items: Array<Project> = [
 		logo: Assets.RAG,  // Replace with an appropriate logo if available
 		name: 'RAG System for  Robotics',
 		period: {
-			from: new Date()  // Replace with specific start date if applicable
+			from: new Date(2024, 10, 2), to: new Date(2024, 11, 2) 
 		},
 		skills: getSkills('mongodb', 'qdrant', 'docker', 'pytorch', 'clearml'),
 		type: 'Gen-AI Project'
@@ -93,10 +93,32 @@ export const items: Array<Project> = [
 		logo: Assets.BCI,  // Replace with an appropriate logo if available
 		name: 'BCI-SSVEP Detection with Multi-Task Learning',
 		period: {
-			from: new Date()  // Replace with specific start date if applicable
+			from: new Date(2021, 5, 3), to: new Date(2021, 6, 24) 
 		},
 		skills: getSkills('pytorch', 'ml', 'deeplearning'),
-		type: 'AI Project'
-	}
+		type: 'AI Healthcare'
+	},
+	{
+        slug: 'fasterrcnn-deepsort',
+        color: '#ff5733',
+        description: 
+		`• Implemented an object detection and tracking system by integrating Faster R-CNN for detection and DeepSORT for multi-object tracking.
+         • Developed a pipeline for real-time analysis on video feeds, including pre-processing, inference, and visualization.
+         • Optimized the performance of both models to handle real-time scenarios with improved tracking accuracy and object re-identification.`,
+		 
+        shortDescription: 'Faster R-CNN and DeepSORT integration for object detection and multi-object tracking.',
+        links: [{ to: 'https://github.com/mdabdulrazzaq/faster-rcnn-deepsort-sports-tracking', label: 'GitHub' }],
+        logo: Assets.sportsai,
+        name: 'Faster R-CNN + DeepSORT Object Tracking',
+        period: {
+            from: new Date(2024, 9, 18), to: new Date(2024, 10, 1)
+        },
+        skills: getSkills('pytorch', 'tensorflow', 'tracking', 'deeplearning'),
+        type: 'Computer Vision Project',
+		screenshots: [
+						{
+							label: 'Architecture Diagram',
+                            src:'https://raw.githubusercontent.com/mdabdulrazzaq/faster-rcnn-deepsort-sports-tracking/refs/heads/main/Architecture.png'                      },]}
 ];
+	
 export const title = 'Projects';
