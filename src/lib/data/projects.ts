@@ -79,7 +79,7 @@ export const items: Array<Project> = [
 		period: {
 			from: new Date(2024, 10, 2), to: new Date(2024, 11, 2) 
 		},
-		skills: getSkills('mongodb', 'qdrant', 'docker', 'pytorch', 'clearml'),
+		skills: getSkills('mongodb', 'qdrant', 'docker', 'pytorch', 'huggingface-transformers'),
 		type: 'Gen-AI Project'
 	},
 	{
@@ -118,7 +118,43 @@ export const items: Array<Project> = [
 		screenshots: [
 						{
 							label: 'Architecture Diagram',
-                            src:'https://raw.githubusercontent.com/mdabdulrazzaq/faster-rcnn-deepsort-sports-tracking/refs/heads/main/Architecture.png'                      },]}
+                            src:'https://raw.githubusercontent.com/mdabdulrazzaq/faster-rcnn-deepsort-sports-tracking/refs/heads/main/Architecture.png'                     
+						},
+					 ]},
+		{
+		slug: 'ai-concepts-hub',
+		color: '#4caf50', // Add your preferred color
+		description:
+			`• A curated collection of AI/ML concepts with code explanations and visualizations.  
+			• Topics include self-attention, multi-head attention, tokenization techniques, word embeddings, and text preprocessing.`,
+		shortDescription: 'AI/ML Concepts explained through code and visualizations.',
+		links: [{ to: 'https://github.com/mdabdulrazzaq/ai-concepts-hub', label: 'GitHub' }],
+		logo: Assets.aiconcepts, // Replace with an appropriate logo if available
+		name: 'AI Concepts Hub',
+		period: {
+			from: new Date(2024, 11, 1), to: new Date(2024, 11, 30),
+		},
+        skills: getSkills('huggingface-transformers', 'tensorflow', 'pytorch', 'deeplearning'),
+		type: 'Educational Project',
+	},
+	{
+		slug: 'ai-fun-projects-hub',
+		color: '#ff9800', // Add your preferred color
+		description:
+			`• A collection of creative AI-powered applications, combining deep learning and interactivity.  
+			• Includes projects like the Pixel Character Creator, a Streamlit app to pixelate photos with artistic styles.`,
+		shortDescription: 'Fun AI-powered projects with interactive applications.',
+		links: [{ to: 'https://github.com/mdabdulrazzaq/ai-fun-projects-hub', label: 'GitHub' }],
+		logo: Assets.aifunprojects, // Replace with an appropriate logo if available
+		name: 'AI Fun Projects Hub',
+		period: {
+			from: new Date(2024, 11, 1), to: new Date(2024, 11, 30),
+		},
+        skills: getSkills('huggingface-transformers', 'tensorflow', 'tracking', 'deeplearning'),
+		type: 'Creative AI Project',
+	},
+
+	
 ];
 	
 export const title = 'Projects';

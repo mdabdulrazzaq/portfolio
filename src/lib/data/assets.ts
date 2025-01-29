@@ -88,7 +88,9 @@ const Assets = {
 	KoiReader: a('koi.png'),
 	RAG:a('rag.png'),
 	BCI:a('bci-mm.png'),
-	sportsai:a('sportsailogo.png')
+	sportsai:a('sportsailogo.png'),
+	aifunprojects: a('aifunprojects.webp'),
+	aiconcepts:a('aiconcepts.webp')
 
 };
 
