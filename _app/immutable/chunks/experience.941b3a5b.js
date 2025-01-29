@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.4348a8da.js";import{g as o}from"./skills.4c2a7e66.js";import{C as n}from"./types.1ebf2f37.js";const r=[{slug:"ozone-cloud",company:"Ozone Cloud",description:`• Developed Ozone Studio's user-friendly interface for Tekton pipeline creation, enhancing development efficiency by 40%.  
+import{A as e}from"./UIcon.c1ba7e23.js";import{g as o}from"./skills.8b1f6ed4.js";import{C as n}from"./types.1ebf2f37.js";const r=[{slug:"ozone-cloud",company:"Ozone Cloud",description:`• Developed Ozone Studio's user-friendly interface for Tekton pipeline creation, enhancing development efficiency by 40%.  
 		• Integrated AI models into the Continuous Verification feature to monitor application attributes and generate alerts for anomalies.  
 		• Built an end-to-end one-click deployment feature for the Ozone CI/CD platform.  
 		• Implemented AI-driven Grafana dashboards for enhanced observability, improving system diagnostics and decision-making.  
