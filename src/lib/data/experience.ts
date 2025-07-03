@@ -4,6 +4,24 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
+		slug: 'aws-intern',
+		company: 'Amazon Web Services (AWS)',
+		description:
+			`• Built a scalable Model Context Protocol (MCP) server to automate incident investigations for AWS Amplify Hosting.  
+• Implemented permission-controlled, end-to-end workflows integrating CloudWatch, SQS DLQ, and runbooks.  
+• Integrated Amazon Q with MCP to enable conversational, evidence-backed investigation and resolution workflows.`,
+		contract: ContractType.Internship,
+		type: 'Software Development',
+		location: 'Seattle, USA',
+		period: { from: new Date(2025, 4, 1), to: undefined }, // May 2025 – present
+		skills: getSkills('typescript', 'nodejs', 'aws', 'cloudwatch', 'sqs', 'runbooks'),
+		name: 'SDE Intern',
+		color: 'orange',
+		links: [{ to: 'https://aws.amazon.com/', label: 'AWS' }],
+		logo: Assets.AWS,
+		shortDescription: 'SDE Intern at AWS, building the Model Context Protocol (MCP) tool for AWS Amplify to empower on-call engineers with automated, evidence-backed incident investigation and resolution workflows.'
+	},
+	{
 		slug: 'ozone-cloud',
 		company: 'Ozone Cloud',
 	    description:
@@ -68,24 +86,6 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: 'ML Research Intern at Aero2astro, focused on computer vision research and object detection model evaluations.'
-	},
-	{
-		slug: 'aws-intern',
-		company: 'Amazon Web Services (AWS)',
-		description:
-			`• Built a scalable Model Context Protocol (MCP) server to automate incident investigations for AWS Amplify Hosting.  
-• Implemented permission-controlled, end-to-end workflows integrating CloudWatch, SQS DLQ, and runbooks.  
-• Integrated Amazon Q with MCP to enable conversational, evidence-backed investigation and resolution workflows.`,
-		contract: ContractType.Internship,
-		type: 'Software Development',
-		location: 'Seattle, USA',
-		period: { from: new Date(2025, 4, 1), to: undefined }, // May 2025 – present
-		skills: getSkills('typescript', 'nodejs', 'aws', 'cloudwatch', 'sqs', 'runbooks'),
-		name: 'SDE Intern',
-		color: 'orange',
-		links: [{ to: 'https://aws.amazon.com/', label: 'AWS' }],
-		logo: Assets.AWS,
-		shortDescription: 'SDE Intern at AWS, automating incident investigations and integrating cloud-native workflows.'
 	}
 ];
 
